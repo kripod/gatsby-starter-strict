@@ -4,6 +4,7 @@ module.exports = {
     language: 'en',
   },
   plugins: [
+    'gatsby-plugin-flow',
     'gatsby-plugin-react-helmet',
     /* TODO:
     {

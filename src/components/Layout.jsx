@@ -2,7 +2,11 @@ import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 
-const Layout = ({ children }) => (
+type Props = {
+  children: React.Node,
+};
+
+const Layout = ({ children }: Props) => (
   <div>
     {/* TODO: Add global styles */}
 
