@@ -6,9 +6,8 @@
   // Using Prettier for JS is unnecessary as ESLint already handles formatting
   "prettier.disableLanguages": ["javascript", "javascriptreact"],
 
-  // Configure Flow
+  // Add support for static type checking with Flow
   "flow.useNPMPackagedFlow": true,
-  "flow.runOnEdit": false,
 
   // Disable built-in tools for which there are better alternatives available
   "javascript.format.enable": false,
