@@ -3,7 +3,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const Layout = ({ children }) => (
-  <>
+  <div>
     {/* TODO: Add global styles */}
 
     <StaticQuery
@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
     <main>{children}</main>
 
     <footer>{/* TODO */}</footer>
-  </>
+  </div>
 );
 
 export default Layout;
