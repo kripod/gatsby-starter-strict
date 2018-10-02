@@ -4012,9 +4012,9 @@ gatsby-link@^2.0.3:
     prop-types "^15.6.1"
     ric "^1.3.0"
 
-gatsby-plugin-flow@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.1.tgz#c70e3f65ddf59ed10260d74d861b86d77fdb1422"
+gatsby-plugin-flow@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-flow/-/gatsby-plugin-flow-1.0.2.tgz#e27315899a1bbffa213e7518e69c2b4b7387b8e7"
   dependencies:
     "@babel/preset-flow" "^7.0.0-rc.1"
     "@babel/runtime" "^7.0.0"
