@@ -9,7 +9,7 @@
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\""
   },
   "dependencies": {
-    "gatsby": "^2.0.18",
+    "gatsby": "^2.0.19",
     "gatsby-plugin-flow": "^1.0.2",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "react": "^16.5.2",
