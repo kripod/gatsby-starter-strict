@@ -10,8 +10,5 @@
   "plugins": ["flowtype"],
   "env": {
     "browser": true
-  },
-  "rules": {
-    "flowtype/no-types-missing-file-annotation": "off"
   }
 }
