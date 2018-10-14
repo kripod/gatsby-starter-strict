@@ -5,8 +5,7 @@
     "develop": "gatsby develop",
     "flow": "flow",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md,yml}\"",
-    "lint": "npm run lint:es",
-    "lint:es": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\""
+    "lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\""
   },
   "dependencies": {
     "gatsby": "^2.0.22",
