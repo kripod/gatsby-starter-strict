@@ -3,13 +3,11 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "flow": "flow",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{js,jsx,json,md,yml}\"",
     "lint": "eslint --ignore-path .gitignore \"**/*.{js,jsx}\""
   },
   "dependencies": {
     "gatsby": "^2.0.31",
-    "gatsby-plugin-flow": "^1.0.2",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
@@ -20,12 +18,10 @@
     "eslint": "^5.8.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-flowtype": "^3.1.4",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "flow-bin": "^0.84.0",
     "prettier": "^1.14.3"
   }
 }

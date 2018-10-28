@@ -3,7 +3,6 @@
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
-    "flowtype.flow-for-vscode",
     "prisma.vscode-graphql"
   ]
 }
