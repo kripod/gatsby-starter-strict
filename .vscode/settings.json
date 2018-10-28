@@ -1,12 +1,14 @@
 {
+  // Use ESLint instead of TSLint
+  "tslint.enable": false,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+
   // Enable automatic file formatting and fixing
   "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true,
-
-  // Using Prettier for JS is unnecessary as ESLint already handles formatting
-  "prettier.disableLanguages": ["javascript", "javascriptreact"],
-
-  // Disable built-in tools for which there are better alternatives available
-  "javascript.format.enable": false,
-  "javascript.validate.enable": false
+  "eslint.autoFixOnSave": true
 }

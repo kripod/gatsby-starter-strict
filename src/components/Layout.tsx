@@ -2,9 +2,9 @@ import { graphql, StaticQuery } from 'gatsby';
 import * as React from 'react';
 import Helmet from 'react-helmet';
 
-type Props = {
+interface Props {
   children: React.ReactNode;
-};
+}
 
 const Layout = ({ children }: Props) => (
   <div>
