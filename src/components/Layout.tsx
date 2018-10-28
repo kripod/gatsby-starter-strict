@@ -1,11 +1,9 @@
-// @flow
-
 import { graphql, StaticQuery } from 'gatsby';
 import * as React from 'react';
 import Helmet from 'react-helmet';
 
 type Props = {
-  children: React.Node,
+  children: React.ReactNode;
 };
 
 const Layout = ({ children }: Props) => (
