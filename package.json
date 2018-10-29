@@ -8,7 +8,7 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "gatsby": "^2.0.31",
+    "gatsby": "^2.0.33",
     "gatsby-plugin-react-helmet": "^3.0.1",
     "gatsby-plugin-typescript": "^2.0.0",
     "react": "^16.6.0",
