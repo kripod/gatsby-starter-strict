@@ -10,7 +10,7 @@
   "dependencies": {
     "gatsby": "^2.0.31",
     "gatsby-plugin-react-helmet": "^3.0.1",
-    "gatsby-plugin-typescript": "^2.0.0",
+    "gatsby-plugin-typescript": "^2.0.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-helmet": "^5.2.0"
