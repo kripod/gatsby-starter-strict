@@ -1,5 +1,6 @@
 {
   "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
+  "plugins": ["typescript"],
   "env": {
     "browser": true
   },
@@ -16,7 +17,8 @@
       "parser": "typescript-eslint-parser",
       "rules": {
         "no-undef": "off",
-        "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
+        "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+        "typescript/no-unused-vars": "error"
       }
     }
   ]
