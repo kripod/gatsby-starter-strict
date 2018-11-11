@@ -891,6 +891,13 @@
     "@types/history" "*"
     "@types/react" "*"
 
+"@types/react-helmet@^5.0.7":
+  version "5.0.7"
+  resolved "https://registry.yarnpkg.com/@types/react-helmet/-/react-helmet-5.0.7.tgz#1cae65b2c37fe54cf56f40cd388836d4619dbc51"
+  integrity sha512-FbDibfkcGsD/N+3k47bfLcr5uAzSi64LJ2OOILz/P5vtBwT5A92KZAU5H9/7OjhUN6au5k+BbNplhVfp6IXDcQ==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*":
   version "16.4.18"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.18.tgz#2e28a2e7f92d3fa7d6a65f2b73275c3e3138a13d"

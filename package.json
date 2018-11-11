@@ -16,6 +16,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "@types/react-helmet": "^5.0.7",
     "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
