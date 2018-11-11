@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "strict": true
+    "strict": true,
+    "target": "esnext"
   },
   "typeAcquisition": {
     "enable": true
