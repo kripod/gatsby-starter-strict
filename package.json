@@ -8,23 +8,23 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "gatsby": "^2.0.38",
+    "gatsby": "^2.0.45",
     "gatsby-plugin-react-helmet": "^3.0.1",
     "gatsby-plugin-typescript": "^2.0.1",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
+    "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-typescript": "^0.13.0",
-    "prettier": "^1.14.3",
+    "prettier": "^1.15.2",
     "typescript": "^3.1.6",
     "typescript-eslint-parser": "^20.1.1"
   }
