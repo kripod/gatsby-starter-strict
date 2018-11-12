@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "gatsby": "^2.0.46",
-    "gatsby-plugin-react-helmet": "^3.0.1",
+    "gatsby-plugin-react-helmet": "^3.0.2",
     "gatsby-plugin-typescript": "^2.0.1",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
