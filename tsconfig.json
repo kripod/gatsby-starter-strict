@@ -1,6 +1,10 @@
 {
+  // Reference: https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/
   "compilerOptions": {
     "jsx": "react",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
     "strict": true
   }
 }
