@@ -8,6 +8,9 @@
     { "language": "typescriptreact", "autoFix": true }
   ],
 
+  // Use ESLint with Yarn
+  "eslint.packageManager": "yarn",
+
   // Enable automatic file formatting and fixing
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
