@@ -16,6 +16,7 @@ const Layout = ({ children }: Props) => (
           site {
             siteMetadata {
               title
+              description
               language
             }
           }
@@ -27,6 +28,10 @@ const Layout = ({ children }: Props) => (
           defaultTitle={data.site.siteMetadata.title}
         >
           <html lang={data.site.siteMetadata.language} />
+          <meta
+            name="description"
+            content={data.site.siteMetadata.description}
+          />
         </Helmet>
       )}
     />
