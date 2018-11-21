@@ -2,14 +2,15 @@ import { graphql, StaticQuery } from 'gatsby';
 import * as React from 'react';
 import Helmet from 'react-helmet';
 
+import 'normalize.css';
+import styles from './Layout.module.css';
+
 interface Props {
   children: React.ReactNode;
 }
 
 const Layout = ({ children }: Props) => (
-  <div>
-    {/* TODO: Add global styles */}
-
+  <div className={styles.root}>
     <StaticQuery
       query={graphql`
         {
@@ -38,7 +39,7 @@ const Layout = ({ children }: Props) => (
 
     <header>{/* TODO */}</header>
 
-    <main>{children}</main>
+    <main className={styles.main}>{children}</main>
 
     <footer>{/* TODO */}</footer>
   </div>
