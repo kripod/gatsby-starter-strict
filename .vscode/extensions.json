@@ -1,10 +1,10 @@
 {
   "recommendations": [
     "clinyong.vscode-css-modules",
-    "cpylua.language-postcss",
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
-    "prisma.vscode-graphql"
+    "prisma.vscode-graphql",
+    "shinnn.stylelint"
   ]
 }

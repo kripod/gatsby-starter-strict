@@ -14,11 +14,8 @@
   // Use workspace version of TypeScript instead of the one built-in
   "typescript.tsdk": "node_modules/typescript/lib",
 
-  // Improve syntax highlighting
-  "files.associations": {
-    "*.css": "postcss",
-    ".stylelintrc": "json"
-  },
+  // Replace the built-in CSS linter with stylelint
+  "css.validate": false,
 
   // Enable automatic file formatting and fixing
   "editor.formatOnSave": true,
