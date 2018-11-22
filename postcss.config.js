@@ -1,6 +1,6 @@
-const atImport = require('postcss-import');
+const postcssImport = require('postcss-import');
 const postcssPresetEnv = require('postcss-preset-env');
 
 module.exports = {
-  plugins: [atImport(), postcssPresetEnv()],
+  plugins: [postcssImport(), postcssPresetEnv({ stage: 1 })],
 };
