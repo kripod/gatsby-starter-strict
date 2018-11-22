@@ -11,10 +11,15 @@
   // Use ESLint with Yarn
   "eslint.packageManager": "yarn",
 
+  // Use workspace version of TypeScript instead of the one built-in
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  // Enable PostCSS syntax highlighting
+  "files.associations": {
+    "*.css": "postcss"
+  },
+
   // Enable automatic file formatting and fixing
   "editor.formatOnSave": true,
-  "eslint.autoFixOnSave": true,
-
-  // Use workspace version of TypeScript instead of the one built-in
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "eslint.autoFixOnSave": true
 }
