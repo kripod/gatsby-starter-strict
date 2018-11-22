@@ -14,9 +14,10 @@
   // Use workspace version of TypeScript instead of the one built-in
   "typescript.tsdk": "node_modules/typescript/lib",
 
-  // Enable PostCSS syntax highlighting
+  // Improve syntax highlighting
   "files.associations": {
-    "*.css": "postcss"
+    "*.css": "postcss",
+    ".stylelintrc": "json"
   },
 
   // Enable automatic file formatting and fixing
