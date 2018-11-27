@@ -32,7 +32,7 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-typescript": "^0.13.0",
     "prettier": "^1.15.2",
-    "stylelint": "^9.8.0",
+    "stylelint": "^9.9.0",
     "stylelint-config-idiomatic-order": "^6.2.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended": "^2.1.0",
