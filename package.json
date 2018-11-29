@@ -30,7 +30,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-typescript": "^0.13.0",
+    "eslint-plugin-typescript": "^0.14.0",
     "prettier": "^1.15.2",
     "stylelint": "^9.9.0",
     "stylelint-config-idiomatic-order": "^6.2.0",
