@@ -4766,10 +4766,10 @@ gatsby-plugin-react-helmet@^3.0.4:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-typescript@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.0.2.tgz#24153f6594b07c130b44c77d2fee086369ab7e2b"
-  integrity sha512-0+6ApM6GMT0Mumvtbow1AnvS+fYiPj6F3eDXd0W6MxEyJ24VexSzuYB7c8jjkOAs0PgQYjzmF2ta0CfoqPf8vQ==
+gatsby-plugin-typescript@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.0.3.tgz#07b4f42180d8e4d39b3fa9da5a494390a03d0c6e"
+  integrity sha512-1SPHrGIiUKXe7SeiDLifYr4RBiuyYmXRSpmE9rIOt5HeCgP/qwjrkN261plnZo8Ka1RBd/1JpwOaCE1u4Zb+Mw==
   dependencies:
     "@babel/preset-typescript" "^7.0.0"
     "@babel/runtime" "^7.0.0"
