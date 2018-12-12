@@ -5,7 +5,7 @@
     "target": "esnext",
     "moduleResolution": "node",
     "isolatedModules": true,
-    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     "allowJs": true,
     "strict": true
   },
