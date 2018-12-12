@@ -1,0 +1,21 @@
+@import '../utils/breakpoints.css';
+
+.root {
+  width: 100%;
+  padding: 0 1em;
+  margin: 0 auto;
+}
+
+.fixed {
+  max-width: 600px;
+}
+
+@media (--medium-viewport) {
+  .root {
+    padding: 0 1.5em;
+  }
+
+  .fixed {
+    max-width: 1024px;
+  }
+}

@@ -1,9 +1,12 @@
 import React from 'react';
+import Container from '../components/Container';
 import Layout from '../components/Layout';
 
 const IndexPage = () => (
   <Layout>
-    <p>Hello, world!</p>
+    <Container>
+      <p>Hello, world!</p>
+    </Container>
   </Layout>
 );
 
