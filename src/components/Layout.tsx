@@ -5,9 +5,9 @@ import Helmet from 'react-helmet';
 import 'normalize.css';
 import styles from './Layout.module.css';
 
-interface Props {
+type Props = {
   children: React.ReactNode;
-}
+};
 
 const Layout = ({ children }: Props) => (
   <div className={styles.root}>
@@ -37,11 +37,11 @@ const Layout = ({ children }: Props) => (
       )}
     />
 
-    <header>{/* TODO */}</header>
+    <header />
 
     <main className={styles.main}>{children}</main>
 
-    <footer>{/* TODO */}</footer>
+    <footer />
   </div>
 );
 
