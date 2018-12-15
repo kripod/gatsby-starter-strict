@@ -1,9 +1,19 @@
 import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
+import { createGlobalStyle } from 'styled-components';
 
 import 'normalize.css';
 import styles from './Layout.module.css';
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+
+    /* Prevent adjustments of font size after orientation changes in iOS */
+    text-size-adjust: 100%;
+  }
+`;
 
 type Props = {
   children: React.ReactNode;
@@ -11,6 +21,8 @@ type Props = {
 
 const Layout = ({ children }: Props) => (
   <div className={styles.root}>
+    <GlobalStyle />
+
     <StaticQuery
       query={graphql`
         {
