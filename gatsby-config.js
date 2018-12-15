@@ -6,7 +6,6 @@ module.exports = {
     language: 'en',
   },
   plugins: [
-    'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-typescript',

@@ -6,7 +6,7 @@
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,js,json,css,md,yml}\"",
     "lint": "npm run lint:es && npm run lint:style",
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js}\"",
-    "lint:style": "stylelint --ignore-path .gitignore \"src/**/*.css\"",
+    "lint:style": "stylelint --ignore-path .gitignore \"src/**/*.{ts,tsx,js}\"",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
@@ -36,6 +36,8 @@
     "stylelint-config-idiomatic-order": "^6.2.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.5.1",
     "typescript": "^3.2.2",
     "typescript-eslint-parser": "^21.0.2"
   }
