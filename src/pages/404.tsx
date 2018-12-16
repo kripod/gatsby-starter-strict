@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { Heading, Text } from 'rebass';
 import Container from '../components/Container';
 import Layout from '../components/Layout';
 
@@ -10,8 +11,8 @@ const NotFoundPage = () => (
     </Helmet>
 
     <Container>
-      <h2>Page not found</h2>
-      <p>The requested page is unavailable.</p>
+      <Heading mb={2}>Page not found</Heading>
+      <Text>The requested page is unavailable.</Text>
     </Container>
   </Layout>
 );
