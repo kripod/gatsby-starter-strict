@@ -1,10 +1,9 @@
 import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
-import { createGlobalStyle } from 'styled-components';
-
-import 'normalize.css';
-import styles from './Layout.module.css';
+import { Box, Flex } from 'rebass';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import theme from '../utils/theme';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -20,41 +19,45 @@ type Props = {
 };
 
 const Layout = ({ children }: Props) => (
-  <div className={styles.root}>
-    <GlobalStyle />
+  <ThemeProvider theme={theme}>
+    <Flex flexDirection="column" css="min-height: 100vh;">
+      <GlobalStyle />
 
-    <StaticQuery
-      query={graphql`
-        {
-          site {
-            siteMetadata {
-              title
-              description
-              language
+      <StaticQuery
+        query={graphql`
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                language
+              }
             }
           }
-        }
-      `}
-      render={data => (
-        <Helmet
-          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-          defaultTitle={data.site.siteMetadata.title}
-        >
-          <html lang={data.site.siteMetadata.language} />
-          <meta
-            name="description"
-            content={data.site.siteMetadata.description}
-          />
-        </Helmet>
-      )}
-    />
+        `}
+        render={data => (
+          <Helmet
+            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            defaultTitle={data.site.siteMetadata.title}
+          >
+            <html lang={data.site.siteMetadata.language} />
+            <meta
+              name="description"
+              content={data.site.siteMetadata.description}
+            />
+          </Helmet>
+        )}
+      />
 
-    <header />
+      <header>{/* TODO */}</header>
 
-    <main className={styles.main}>{children}</main>
+      <Box as="main" flex={1}>
+        {children}
+      </Box>
 
-    <footer />
-  </div>
+      <footer>{/* TODO */}</footer>
+    </Flex>
+  </ThemeProvider>
 );
 
 export default Layout;

@@ -19,10 +19,12 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
+    "rebass": "^3.0.0",
     "styled-components": "^4.1.2"
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.7",
+    "@types/rebass": "^0.3.2",
     "@types/styled-components": "^4.1.4",
     "eslint": "^5.10.0",
     "eslint-config-airbnb": "^17.1.0",
