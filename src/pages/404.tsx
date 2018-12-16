@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import Container from '../components/Container';
 import Layout from '../components/Layout';
 
 const NotFoundPage = () => (
@@ -8,8 +9,10 @@ const NotFoundPage = () => (
       <title>Page not found</title>
     </Helmet>
 
-    <h2>Page not found</h2>
-    <p>The requested page is unavailable.</p>
+    <Container>
+      <h2>Page not found</h2>
+      <p>The requested page is unavailable.</p>
+    </Container>
   </Layout>
 );
 
