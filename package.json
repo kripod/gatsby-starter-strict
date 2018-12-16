@@ -15,7 +15,6 @@
     "gatsby-plugin-react-helmet": "^3.0.4",
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-plugin-typescript": "^2.0.3",
-    "normalize.css": "^8.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
