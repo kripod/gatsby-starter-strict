@@ -933,10 +933,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/rebass@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-0.3.2.tgz#6c5e398528e8a7e55453bc1d3374fa00198e1379"
-  integrity sha512-mjYbT/YZclSek5BC/H7TCa7XhejBKicniF5VwwPozOpL1MuYmC1EZpgH9KDY83meeZpORA46EEfJSf/LwqiiLA==
+"@types/rebass@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-0.3.3.tgz#a61d0e1e14f2d21b9e5a633713f898e094b57a4a"
+  integrity sha512-ZmEo7EXlSl1VQYjjojcN/Z+80tjLAY4iZylwYF3lZn5upQSi2p0BAOGvUklKK3RZjHlcBHXJryK9xlYnqYdSaQ==
   dependencies:
     "@types/react" "*"
 
