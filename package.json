@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.7",
-    "@types/rebass": "^0.3.2",
+    "@types/rebass": "^0.3.3",
     "@types/styled-components": "^4.1.4",
     "eslint": "^5.10.0",
     "eslint-config-airbnb": "^17.1.0",
