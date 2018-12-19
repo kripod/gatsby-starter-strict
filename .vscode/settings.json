@@ -8,14 +8,8 @@
     { "language": "typescriptreact", "autoFix": true }
   ],
 
-  // Use ESLint with Yarn
-  "eslint.packageManager": "yarn",
-
   // Use workspace version of TypeScript instead of the one built-in
   "typescript.tsdk": "node_modules/typescript/lib",
-
-  // Replace the built-in CSS linter with stylelint
-  "css.validate": false,
 
   // Enable automatic file formatting and fixing
   "editor.formatOnSave": true,
