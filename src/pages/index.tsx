@@ -6,7 +6,7 @@ import Layout from '../components/Layout';
 const IndexPage = () => (
   <Layout>
     <Container>
-      <Text>Hello, world!</Text>
+      <Text as="p">Hello, world!</Text>
     </Container>
   </Layout>
 );

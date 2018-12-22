@@ -11,8 +11,8 @@ const NotFoundPage = () => (
     </Helmet>
 
     <Container>
-      <Heading mb={2}>Page not found</Heading>
-      <Text>The requested page is unavailable.</Text>
+      <Heading>Page not found</Heading>
+      <Text as="p">The requested page is unavailable.</Text>
     </Container>
   </Layout>
 );
