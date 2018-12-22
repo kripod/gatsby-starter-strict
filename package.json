@@ -15,16 +15,20 @@
     "gatsby-plugin-react-helmet": "^3.0.5",
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-plugin-typescript": "^2.0.3",
+    "gatsby-plugin-typography": "^2.2.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
+    "react-typography": "^0.16.18",
     "rebass": "^3.0.0",
-    "styled-components": "^4.1.3"
+    "styled-components": "^4.1.3",
+    "typography": "^0.16.18"
   },
   "devDependencies": {
     "@types/react-helmet": "^5.0.7",
     "@types/rebass": "^0.3.3",
     "@types/styled-components": "^4.1.4",
+    "@types/typography": "^0.16.1",
     "eslint": "^5.10.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
