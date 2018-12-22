@@ -2,17 +2,8 @@ import { graphql, StaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import { Box, Flex } from 'rebass';
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 import theme from '../utils/theme';
-
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-
-    /* Prevent adjustments of font size after orientation changes in iOS */
-    text-size-adjust: 100%;
-  }
-`;
 
 type Props = {
   children: React.ReactNode;
@@ -21,8 +12,6 @@ type Props = {
 const Layout = ({ children }: Props) => (
   <ThemeProvider theme={theme}>
     <Flex flexDirection="column" css="min-height: 100vh;">
-      <GlobalStyle />
-
       <StaticQuery
         query={graphql`
           {
