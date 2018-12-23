@@ -29,7 +29,7 @@
     "@types/rebass": "^0.3.3",
     "@types/styled-components": "^4.1.4",
     "@types/typography": "^0.16.1",
-    "eslint": "^5.10.0",
+    "eslint": "^5.11.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.14.0",
