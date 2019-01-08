@@ -869,10 +869,10 @@
   resolved "https://registry.yarnpkg.com/@types/tmp/-/tmp-0.0.32.tgz#0d3cb31022f8427ea58c008af32b80da126ca4e3"
   integrity sha1-DTyzECL4Qn6ljACK8yuA2hJspOM=
 
-"@types/typography@^0.16.1":
-  version "0.16.1"
-  resolved "https://registry.yarnpkg.com/@types/typography/-/typography-0.16.1.tgz#b063d6f8611e5c63180528a863d288bf0f197c51"
-  integrity sha512-DlB/Xcx6J0ah9zZzVQCeVx0G9sDZTRrPtoaZMR3WjYAyDVjxAkyudzuaPesNCkG1kXMor9h9pPMibVAMAoIilg==
+"@types/typography@^0.16.2":
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/@types/typography/-/typography-0.16.2.tgz#dfe68caf692185e1b84d9e583b44953b03b7d135"
+  integrity sha512-/lHKjwY0SekteqdOtGsYiXtT5T9RdF50kQGzp8wDRx8DtrJIXK6VVrJ+aAWYii51dZdXTGriXgCDtup6T+zz1Q==
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
