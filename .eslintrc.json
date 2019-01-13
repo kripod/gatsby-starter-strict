@@ -5,6 +5,7 @@
     "prettier/react",
     "prettier/typescript"
   ],
+  "parser": "eslint-plugin-typescript/parser",
   "plugins": ["typescript"],
   "env": {
     "browser": true
@@ -19,7 +20,6 @@
   "overrides": [
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "parser": "typescript-eslint-parser",
       "rules": {
         "typescript/no-unused-vars": "error",
         "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
