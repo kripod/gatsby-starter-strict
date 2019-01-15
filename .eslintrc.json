@@ -1,13 +1,13 @@
 {
   "root": true,
+  "parser": "eslint-plugin-typescript/parser",
+  "plugins": ["typescript"],
   "extends": [
     "airbnb",
     "plugin:prettier/recommended",
     "prettier/react",
     "prettier/typescript"
   ],
-  "parser": "eslint-plugin-typescript/parser",
-  "plugins": ["typescript"],
   "env": {
     "browser": true
   },
