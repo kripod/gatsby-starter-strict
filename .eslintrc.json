@@ -1,6 +1,5 @@
 {
   "root": true,
-  "parser": "eslint-plugin-typescript/parser",
   "plugins": ["typescript"],
   "extends": [
     "airbnb",
@@ -21,6 +20,7 @@
   "overrides": [
     {
       "files": ["**/*.ts", "**/*.tsx"],
+      "parser": "eslint-plugin-typescript/parser",
       "rules": {
         "typescript/no-unused-vars": "error",
         "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
