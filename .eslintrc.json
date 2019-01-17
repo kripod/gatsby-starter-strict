@@ -24,6 +24,7 @@
       "parser": "eslint-plugin-typescript/parser",
       "rules": {
         "react/jsx-filename-extension": "off",
+        "no-unused-vars": "off",
         "typescript/no-unused-vars": "error"
       }
     }
