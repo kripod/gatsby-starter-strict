@@ -913,10 +913,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/rebass@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-0.3.3.tgz#a61d0e1e14f2d21b9e5a633713f898e094b57a4a"
-  integrity sha512-ZmEo7EXlSl1VQYjjojcN/Z+80tjLAY4iZylwYF3lZn5upQSi2p0BAOGvUklKK3RZjHlcBHXJryK9xlYnqYdSaQ==
+"@types/rebass@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-0.3.4.tgz#2179ef25311d8d12af42bb5a69420121c4678c5b"
+  integrity sha512-IVx8iJxhGuPrzZqXYWCyt7HyRHg4HAQiRr8CdF4AnDyXxQulVCfoKcj4wtI4kTBRKUWsS7HH2cFz9GRziiW9Fw==
   dependencies:
     "@types/react" "*"
 
