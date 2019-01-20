@@ -1,6 +1,6 @@
 {
   "root": true,
-  "plugins": ["typescript"],
+  "plugins": ["@typescript-eslint"],
   "extends": [
     "airbnb",
     "plugin:prettier/recommended",
@@ -12,7 +12,7 @@
   },
   "settings": {
     "import/parsers": {
-      "typescript-eslint-parser": [".ts", ".tsx"]
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "import/resolver": {
       "typescript": {}
@@ -21,11 +21,11 @@
   "overrides": [
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "parser": "eslint-plugin-typescript/parser",
+      "parser": "@typescript-eslint/eslint-plugin/parser",
       "rules": {
         "react/jsx-filename-extension": "off",
         "no-unused-vars": "off",
-        "typescript/no-unused-vars": "error"
+        "@typescript-eslint/no-unused-vars": "error"
       }
     }
   ]
