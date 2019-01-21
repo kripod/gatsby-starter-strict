@@ -21,7 +21,7 @@
   "overrides": [
     {
       "files": ["**/*.ts", "**/*.tsx"],
-      "parser": "@typescript-eslint/eslint-plugin/parser",
+      "parser": "@typescript-eslint/parser",
       "rules": {
         "react/jsx-filename-extension": "off",
         "no-unused-vars": "off",
