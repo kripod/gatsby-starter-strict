@@ -4,8 +4,8 @@
   "extends": [
     "airbnb",
     "plugin:prettier/recommended",
-    "prettier/react",
-    "prettier/typescript"
+    "prettier/@typescript-eslint",
+    "prettier/react"
   ],
   "env": {
     "browser": true
