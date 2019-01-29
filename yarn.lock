@@ -4821,14 +4821,14 @@ gatsby-plugin-styled-components@^3.0.4:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-typescript@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.0.3.tgz#07b4f42180d8e4d39b3fa9da5a494390a03d0c6e"
-  integrity sha512-1SPHrGIiUKXe7SeiDLifYr4RBiuyYmXRSpmE9rIOt5HeCgP/qwjrkN261plnZo8Ka1RBd/1JpwOaCE1u4Zb+Mw==
+gatsby-plugin-typescript@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.0.4.tgz#a4819625722dec6958140a9c492743e0738e4372"
+  integrity sha512-qOcsYkCbpyAPyzAyiHw9+NIZmScbpDMMaJi8MbXq5lea4SYn3Pyb5+pemDLQJHfZqMQVa2cRph9+aaGLQkY7oQ==
   dependencies:
     "@babel/preset-typescript" "^7.0.0"
     "@babel/runtime" "^7.0.0"
-    babel-plugin-remove-graphql-queries "^2.5.2"
+    babel-plugin-remove-graphql-queries "^2.5.3"
 
 gatsby-plugin-typography@^2.2.6:
   version "2.2.6"
