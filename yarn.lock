@@ -848,10 +848,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/rebass@^0.3.4":
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-0.3.4.tgz#2179ef25311d8d12af42bb5a69420121c4678c5b"
-  integrity sha512-IVx8iJxhGuPrzZqXYWCyt7HyRHg4HAQiRr8CdF4AnDyXxQulVCfoKcj4wtI4kTBRKUWsS7HH2cFz9GRziiW9Fw==
+"@types/rebass@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-3.0.0.tgz#fe191e80ff940d090af9e10323fb237fafd63b8b"
+  integrity sha512-GCXhzH6dYPqhVKMgOCe7sogkWqJHb6FGlXhsmprl6y5lOzkvFHb3fP2cKrx3YUGPHcofZuyeLTs856VQK3do8w==
   dependencies:
     "@types/react" "*"
 
