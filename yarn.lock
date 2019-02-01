@@ -4794,10 +4794,10 @@ gatsby-link@^2.0.9:
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
-gatsby-plugin-manifest@^2.0.15:
-  version "2.0.15"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.15.tgz#59a1f3fac9d5a38bf3895d4055311b07075c8fc7"
-  integrity sha512-AhK5NGTgu6/YBTQbN/TF6rXCLmmIky9OerHhfC/Dn0QFnoF0W+erpY3j1PxOZpsOuozIkclosQTNRK7Sle4UDg==
+gatsby-plugin-manifest@^2.0.16:
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.16.tgz#dc1c8dc05c8b3720f3aa799810f21a190a0be1f4"
+  integrity sha512-zaIEMNNE/AY5rgtSHyg+o/pw0Vt+wT1ldjXDxzI6f6aSwFLGnr1O+LS9U2U6XUdYs+a47erZbuW7i3psMCzc7w==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
