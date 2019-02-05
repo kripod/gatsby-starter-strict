@@ -1586,7 +1586,7 @@ babel-plugin-macros@^2.4.2:
     cosmiconfig "^5.0.5"
     resolve "^1.8.1"
 
-babel-plugin-remove-graphql-queries@^2.5.4, babel-plugin-remove-graphql-queries@^2.5.5:
+babel-plugin-remove-graphql-queries@^2.5.5:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/babel-plugin-remove-graphql-queries/-/babel-plugin-remove-graphql-queries-2.5.5.tgz#c6f49f7131076415b5fa206c8ad3a308c1e8d05a"
   integrity sha512-PY/OcEXg+TZ0zCE4kdYZ3qldnswCS67SgTzFYtCEwS9CAdkLDc1tso9wpBp9gzvS4aopgAx0oEdkoWVxj8ybSQ==
@@ -4594,10 +4594,10 @@ gatsby-react-router-scroll@^2.0.4:
     scroll-behavior "^0.9.9"
     warning "^3.0.0"
 
-gatsby@^2.0.114:
-  version "2.0.114"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.114.tgz#e9ae941198f495d38a34d658da8b97efe2dddb40"
-  integrity sha512-5twVBKZ6ZmWZ29GU2ktNOQubfIe3PVtLUo85LOIypCveriVrD4el5bP6flVVaZrC8T10ZGGJIcPwe4TB9GudZQ==
+gatsby@^2.0.115:
+  version "2.0.115"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.0.115.tgz#d3efa545fba75f461213d9018d27be5730eb4379"
+  integrity sha512-ReUed9YAicoIcx2/q3KBDs7k83YD3qpwT5Srkvf40K1fsQGZ1A97+N+8MTjRxx/IaswjP7WQtx+hrdF312fzqw==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
