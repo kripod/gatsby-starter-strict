@@ -912,10 +912,10 @@
     "@types/prop-types" "*"
     csstype "^2.2.0"
 
-"@types/rebass@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-3.0.0.tgz#fe191e80ff940d090af9e10323fb237fafd63b8b"
-  integrity sha512-GCXhzH6dYPqhVKMgOCe7sogkWqJHb6FGlXhsmprl6y5lOzkvFHb3fP2cKrx3YUGPHcofZuyeLTs856VQK3do8w==
+"@types/rebass@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/rebass/-/rebass-3.0.1.tgz#1a1c103f9f0e4e48cff72cfa75bea6c4ec2c02a3"
+  integrity sha512-RuUyYAqLtTkxE6dEoesCyFFOXfl6QTedOcMwYHJ9Z715Y5mwRxRC4qmEiTaOtKGN7KVpSt+C3ff1Hrss1KPmzg==
   dependencies:
     "@types/react" "*"
 
