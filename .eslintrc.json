@@ -1,6 +1,6 @@
 {
   "root": true,
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "react-hooks"],
   "extends": [
     "airbnb",
     "plugin:prettier/recommended",
@@ -14,6 +14,9 @@
     "import/resolver": {
       "typescript": {}
     }
+  },
+  "rules": {
+    "react-hooks/rules-of-hooks": "error"
   },
   "overrides": [
     {
