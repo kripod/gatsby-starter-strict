@@ -1,5 +1,5 @@
 const theme = {
-  breakpoints: [600, 1024, 1440, 1920],
+  /* TODO */
 };
 
 export default theme;
