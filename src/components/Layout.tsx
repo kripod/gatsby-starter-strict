@@ -1,4 +1,4 @@
-import { graphql, StaticQuery } from 'gatsby';
+import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import { Box, Flex } from 'rebass';
@@ -10,34 +10,31 @@ type Props = {
 };
 
 export default function Layout({ children }: Props) {
+  const data = useStaticQuery(graphql`
+    {
+      site {
+        siteMetadata {
+          title
+          description
+          language
+        }
+      }
+    }
+  `);
+
   return (
     <ThemeProvider theme={theme}>
       <Flex flexDirection="column" css="min-height: 100vh;">
-        <StaticQuery
-          query={graphql`
-            {
-              site {
-                siteMetadata {
-                  title
-                  description
-                  language
-                }
-              }
-            }
-          `}
-          render={data => (
-            <Helmet
-              titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-              defaultTitle={data.site.siteMetadata.title}
-            >
-              <html lang={data.site.siteMetadata.language} />
-              <meta
-                name="description"
-                content={data.site.siteMetadata.description}
-              />
-            </Helmet>
-          )}
-        />
+        <Helmet
+          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+          defaultTitle={data.site.siteMetadata.title}
+        >
+          <html lang={data.site.siteMetadata.language} />
+          <meta
+            name="description"
+            content={data.site.siteMetadata.description}
+          />
+        </Helmet>
 
         <header>{/* TODO */}</header>
 
