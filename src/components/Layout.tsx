@@ -1,7 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
-import { Box, Flex } from 'rebass';
 import { ThemeProvider } from 'styled-components';
 import theme from '../utils/theme';
 
@@ -24,7 +23,7 @@ export default function Layout({ children }: Props) {
 
   return (
     <ThemeProvider theme={theme}>
-      <Flex flexDirection="column" css="min-height: 100vh;">
+      <div>
         <Helmet
           titleTemplate={`%s | ${data.site.siteMetadata.title}`}
           defaultTitle={data.site.siteMetadata.title}
@@ -38,12 +37,10 @@ export default function Layout({ children }: Props) {
 
         <header>{/* TODO */}</header>
 
-        <Box as="main" flex={1}>
-          {children}
-        </Box>
+        <main>{children}</main>
 
         <footer>{/* TODO */}</footer>
-      </Flex>
+      </div>
     </ThemeProvider>
   );
 }
