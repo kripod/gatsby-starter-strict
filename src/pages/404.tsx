@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import Container from '../components/Container';
 import Layout from '../components/Layout';
 
 export default function NotFoundPage() {
@@ -10,10 +9,8 @@ export default function NotFoundPage() {
         <title>Page not found</title>
       </Helmet>
 
-      <Container>
-        <h1>Page not found</h1>
-        <p>The requested page is unavailable.</p>
-      </Container>
+      <h1>Page not found</h1>
+      <p>The requested page is unavailable.</p>
     </Layout>
   );
 }
