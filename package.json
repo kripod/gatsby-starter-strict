@@ -18,7 +18,7 @@
     "gatsby-plugin-styled-components": "^3.0.6",
     "gatsby-plugin-typescript": "^2.0.8",
     "react": "^16.8.3",
-    "react-dom": "^16.8.2",
+    "react-dom": "^16.8.3",
     "react-helmet": "^5.2.0",
     "styled-components": "^4.1.3"
   },
