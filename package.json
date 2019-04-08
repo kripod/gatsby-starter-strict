@@ -12,7 +12,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.14",
-    "gatsby-plugin-manifest": "^2.0.26",
+    "gatsby-plugin-manifest": "^2.0.27",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-styled-components": "^3.0.7",
