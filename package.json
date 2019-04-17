@@ -2,10 +2,11 @@
   "private": true,
   "scripts": {
     "build": "gatsby build",
+    "codegen": "graphql-codegen",
     "develop": "gatsby develop",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,js,json,yml,md}\"",
     "lint": "npm run lint:es && npm run lint:style",
-    "lint:es": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js}\"",
+    "lint:es": "eslint \"**/*.{ts,tsx,js}\"",
     "lint:style": "stylelint --ignore-path .gitignore \"src/**/*.{ts,tsx,js}\"",
     "type-check": "tsc --noEmit"
   },
@@ -22,6 +23,9 @@
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^1.1.0",
+    "@graphql-codegen/typescript": "1.1.0",
+    "@graphql-codegen/typescript-operations": "^1.1.0",
     "@types/react": "^16.8.13",
     "@types/react-helmet": "^5.0.8",
     "@types/styled-components": "^4.1.14",
