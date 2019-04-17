@@ -4,9 +4,9 @@ import Helmet from 'react-helmet';
 import { ThemeProvider } from 'styled-components';
 import theme from '../utils/theme';
 
-type Props = {
+interface Props {
   children: React.ReactNode;
-};
+}
 
 export default function Layout({ children }: Props) {
   const data = useStaticQuery(graphql`
