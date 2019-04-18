@@ -884,16 +884,6 @@
     "@graphql-codegen/visitor-plugin-common" "1.1.0"
     tslib "1.9.3"
 
-"@graphql-codegen/typescript-resolvers@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-resolvers/-/typescript-resolvers-1.1.0.tgz#96f2d23920a53f1664f8522e2fcb57292ffcde0b"
-  integrity sha512-ShO8KTIHgLdrpj9BpyNd6V6RswfHpMPA1EXXRPyyCVE8gSVm0aL1BOhFTPSZV8qddwlXIkZgJhCDm1yEdqQFeA==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "1.1.0"
-    "@graphql-codegen/typescript" "1.1.0"
-    "@graphql-codegen/visitor-plugin-common" "1.1.0"
-    tslib "1.9.3"
-
 "@graphql-codegen/typescript@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-1.1.0.tgz#9ec51e13d3109ae5dbe3cf92558dbab9c34a9951"
@@ -10076,10 +10066,10 @@ stylelint-config-idiomatic-order@^6.2.0:
     stylelint "^9.6.0"
     stylelint-order "^1.0.0"
 
-stylelint-config-prettier@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-5.0.0.tgz#e7339da065dac8129ca821e234abddcef950b7f8"
-  integrity sha512-ksd78d8Kfq5CCDaT7C+/5O8RyDnRMkLNsqcpqXtdDkHIkIN9lNTdFeYo6clMFw0MmtibO8Mb7/AbEcZysAKRpw==
+stylelint-config-prettier@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-prettier/-/stylelint-config-prettier-5.1.0.tgz#bbc21d4b0dc01c8d19c181c2cca68fb8dadb515b"
+  integrity sha512-xRWnMTVxVcBJ2lHi0Y1B0Gr8RoXC6SsnXNYb5sjmDYupf2fxx67uxrms8jni1pviR/4QkwlqKuuH6Z4nXWnPWw==
 
 stylelint-config-recommended@^2.2.0:
   version "2.2.0"
