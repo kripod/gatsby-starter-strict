@@ -884,16 +884,6 @@
     "@graphql-codegen/visitor-plugin-common" "1.1.0"
     tslib "1.9.3"
 
-"@graphql-codegen/typescript-resolvers@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-resolvers/-/typescript-resolvers-1.1.0.tgz#96f2d23920a53f1664f8522e2fcb57292ffcde0b"
-  integrity sha512-ShO8KTIHgLdrpj9BpyNd6V6RswfHpMPA1EXXRPyyCVE8gSVm0aL1BOhFTPSZV8qddwlXIkZgJhCDm1yEdqQFeA==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "1.1.0"
-    "@graphql-codegen/typescript" "1.1.0"
-    "@graphql-codegen/visitor-plugin-common" "1.1.0"
-    tslib "1.9.3"
-
 "@graphql-codegen/typescript@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-1.1.0.tgz#9ec51e13d3109ae5dbe3cf92558dbab9c34a9951"
@@ -1090,10 +1080,10 @@
     "@types/prop-types" "*"
     "@types/react" "*"
 
-"@types/react@*", "@types/react@^16.8.13":
-  version "16.8.13"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.13.tgz#a82b15aad9ab91c40edca0d6889b7745ae24f053"
-  integrity sha512-otJ4ntMuHGrvm67CdDJMAls4WqotmAmW0g3HmWi9LCjSWXrxoXY/nHXrtmMfvPEEmGFNm6NdgMsJmnfH820Qaw==
+"@types/react@*", "@types/react@^16.8.14":
+  version "16.8.14"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.8.14.tgz#b561bfabeb8f60d12e6d4766367e7a9ae927aa18"
+  integrity sha512-26tFVJ1omGmzIdFTFmnC5zhz1GTaqCjxgUxV4KzWvsybF42P7/j4RBn6UeO3KbHPXqKWZszMXMoI65xIWm954A==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
