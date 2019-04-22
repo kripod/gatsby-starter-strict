@@ -29,7 +29,7 @@
     "@types/react": "^16.8.13",
     "@types/react-helmet": "^5.0.8",
     "@types/styled-components": "^4.1.14",
-    "@typescript-eslint/eslint-plugin": "^1.6.0",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
