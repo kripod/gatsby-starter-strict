@@ -812,17 +812,17 @@
     signedsource "^1.0.0"
     yargs "^9.0.0"
 
-"@graphql-codegen/cli@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-1.1.0.tgz#f4a86b0a1b479834b59226433b42a1ef99e90a27"
-  integrity sha512-xIpHSA8dpBJ53oueepIsCm6udUyoKhDfM5KI4OnP3riaN6DCOu70w1/lK94As4eraob/6wDlxBPUWz9bkszLag==
+"@graphql-codegen/cli@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/cli/-/cli-1.1.1.tgz#8cb3ba201ba2ed138cfebe67fa2673e451be5bb9"
+  integrity sha512-1k8j7ZPuNT88JqtVXXbBvoLj4gtROTiVpIfbxvljurF3VI4/+kjITJhC+d66TtOedOEleBLeX6OxWKzw7lqyTA==
   dependencies:
-    "@graphql-codegen/core" "1.1.0"
-    "@graphql-codegen/plugin-helpers" "1.1.0"
+    "@graphql-codegen/core" "1.1.1"
+    "@graphql-codegen/plugin-helpers" "1.1.1"
     "@types/babylon" "6.16.5"
     "@types/is-glob" "4.0.1"
     "@types/mkdirp" "0.5.2"
-    "@types/prettier" "1.16.2"
+    "@types/prettier" "1.16.3"
     "@types/valid-url" "1.0.2"
     babel-types "7.0.0-beta.3"
     babylon "7.0.0-beta.47"
@@ -855,12 +855,12 @@
     tslib "1.9.3"
     valid-url "1.0.9"
 
-"@graphql-codegen/core@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-1.1.0.tgz#84a79dc299b12ff576882265350a0e7110981f92"
-  integrity sha512-bdU233Kqi7yscR5P3OP7edEegxqd1vr1vTIAS+VuW5tbupHuOn3ueiIwmArWG8G3pK40bbCCEbaysSQ/YqyaLA==
+"@graphql-codegen/core@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/core/-/core-1.1.1.tgz#d4194d15a12dc0bc1785c328e81bf51e16a02cdd"
+  integrity sha512-MtZdykb9mQ34FunrVmJkck9bZKu2wPlg471DVwuEE2FnxOlXsyeC07OEy+2WVa6Hoh7jvqN+swWrmYB308Uc2w==
   dependencies:
-    "@graphql-codegen/plugin-helpers" "1.1.0"
+    "@graphql-codegen/plugin-helpers" "1.1.1"
     graphql-toolkit "0.2.9"
     tslib "1.9.3"
 
@@ -874,20 +874,20 @@
     import-from "2.1.0"
     tslib "1.9.3"
 
+"@graphql-codegen/plugin-helpers@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@graphql-codegen/plugin-helpers/-/plugin-helpers-1.1.1.tgz#11e72e2762154faf6db13ad775bea3fc216d9991"
+  integrity sha512-vOcTD1cURAgXmEnZQeKVElpAq+eyrZwQX6PcV6i48MEekl1XmIZjdCB/S8ZhfBa4EvsCJI6avqA5oJOalpcKCw==
+  dependencies:
+    change-case "3.1.0"
+    common-tags "1.8.0"
+    import-from "2.1.0"
+    tslib "1.9.3"
+
 "@graphql-codegen/typescript-operations@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-operations/-/typescript-operations-1.1.0.tgz#e5a35a32f2be346518e83fad58777c662ecee0c4"
   integrity sha512-KUvXMsJMJsl/y5bk80CsPeTPL+T9ydlS3MQEliyIiaw0+akfDJrT5IHE+lf48bRfZBTzitXN6TII9T/jfh6qJQ==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "1.1.0"
-    "@graphql-codegen/typescript" "1.1.0"
-    "@graphql-codegen/visitor-plugin-common" "1.1.0"
-    tslib "1.9.3"
-
-"@graphql-codegen/typescript-resolvers@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-resolvers/-/typescript-resolvers-1.1.0.tgz#96f2d23920a53f1664f8522e2fcb57292ffcde0b"
-  integrity sha512-ShO8KTIHgLdrpj9BpyNd6V6RswfHpMPA1EXXRPyyCVE8gSVm0aL1BOhFTPSZV8qddwlXIkZgJhCDm1yEdqQFeA==
   dependencies:
     "@graphql-codegen/plugin-helpers" "1.1.0"
     "@graphql-codegen/typescript" "1.1.0"
@@ -1052,10 +1052,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.10.5.tgz#6831006b2c87441d69e79b37ae9bc03246dfb379"
   integrity sha512-RYkagUUbxQBss46ElbEa+j4q4X3GR12QwB7a/PM5hmVuVkYoW1jENT1+taspKUv8ibwW8cw+kRFbOaTc/Key3w==
 
-"@types/prettier@1.16.2":
-  version "1.16.2"
-  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.16.2.tgz#c924147c5baa5eebc455e6cef5e3c29ac0654b6b"
-  integrity sha512-ASI5zoMgx4D2WxwtAfjoUGk2AHg7wthX5MHMxUuq9KpXh4n7yR17T4O7lN0kGFm48C1XBK8J2kJjrmCQsvr19A==
+"@types/prettier@1.16.3":
+  version "1.16.3"
+  resolved "https://registry.yarnpkg.com/@types/prettier/-/prettier-1.16.3.tgz#141bdf4dcbaac06fd2b3f05e233ff23b66866f9f"
+  integrity sha512-5Ksgx9H/Yjz6oamDbmDZstWlJGPTao7shNfambjf8o7OkHxDwAi0AJLQcFwS9pDKI4gQPdiKZXze3nT1eCOViQ==
 
 "@types/prop-types@*":
   version "15.7.0"
