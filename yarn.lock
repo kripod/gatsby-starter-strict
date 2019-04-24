@@ -884,16 +884,6 @@
     "@graphql-codegen/visitor-plugin-common" "1.1.0"
     tslib "1.9.3"
 
-"@graphql-codegen/typescript-resolvers@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript-resolvers/-/typescript-resolvers-1.1.0.tgz#96f2d23920a53f1664f8522e2fcb57292ffcde0b"
-  integrity sha512-ShO8KTIHgLdrpj9BpyNd6V6RswfHpMPA1EXXRPyyCVE8gSVm0aL1BOhFTPSZV8qddwlXIkZgJhCDm1yEdqQFeA==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "1.1.0"
-    "@graphql-codegen/typescript" "1.1.0"
-    "@graphql-codegen/visitor-plugin-common" "1.1.0"
-    tslib "1.9.3"
-
 "@graphql-codegen/typescript@1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@graphql-codegen/typescript/-/typescript-1.1.0.tgz#9ec51e13d3109ae5dbe3cf92558dbab9c34a9951"
@@ -4737,10 +4727,10 @@ gatsby-plugin-styled-components@^3.0.7:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
-gatsby-plugin-typescript@^2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.0.12.tgz#4e3f137b9b003d50dc87dedc15dff55ca74a6197"
-  integrity sha512-Ep84eukNwAM1zZTEhRuegAAENHtzFKc1He9L89eh/tgvcgfzoJRaA2CaI3Dwdgd6/xvd42KsJLD/vOt31y/IFQ==
+gatsby-plugin-typescript@^2.0.13:
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.0.13.tgz#8e30d5a4e00078204dd1ebb779e1c260588dcdb7"
+  integrity sha512-qUIgWv3ouseo7peZgl5q7sTlAOcav+hQmouBWO1vC8n1YuNHnZTpijStEJa9Q56gNObY7Zm+Rv7KJIxmB5T/3Q==
   dependencies:
     "@babel/preset-typescript" "^7.0.0"
     "@babel/runtime" "^7.0.0"
