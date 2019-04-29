@@ -29,7 +29,7 @@ export default function Layout({ children }: Props) {
           titleTemplate={`%s | ${data.site!.siteMetadata!.title!}`}
           defaultTitle={data.site!.siteMetadata!.title!}
         >
-          <html lang={data.site!.siteMetadata!.language} />
+          <html lang={data.site!.siteMetadata!.language!} />
           <meta
             name="description"
             content={data.site!.siteMetadata!.description!}
