@@ -2,7 +2,6 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import Helmet from 'react-helmet';
 import { ThemeProvider } from 'styled-components';
-import { Query } from '../generated/graphql';
 import theme from '../utils/theme';
 
 interface Props {
@@ -10,7 +9,7 @@ interface Props {
 }
 
 export default function Layout({ children }: Props) {
-  const data = useStaticQuery<Query>(graphql`
+  const data = useStaticQuery(graphql`
     {
       site {
         siteMetadata {
@@ -26,13 +25,13 @@ export default function Layout({ children }: Props) {
     <ThemeProvider theme={theme}>
       <div>
         <Helmet
-          titleTemplate={`%s | ${data.site!.siteMetadata!.title!}`}
-          defaultTitle={data.site!.siteMetadata!.title!}
+          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+          defaultTitle={data.site.siteMetadata.title}
         >
-          <html lang={data.site!.siteMetadata!.language!} />
+          <html lang={data.site.siteMetadata.language} />
           <meta
             name="description"
-            content={data.site!.siteMetadata!.description!}
+            content={data.site.siteMetadata.description}
           />
         </Helmet>
 
