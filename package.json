@@ -2,7 +2,6 @@
   "private": true,
   "scripts": {
     "build": "gatsby build",
-    "codegen": "graphql-codegen",
     "develop": "gatsby develop",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,js,json,yml,md}\"",
     "lint": "npm run lint:es && npm run lint:style",
