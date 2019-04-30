@@ -15,7 +15,8 @@ export default function Layout({ children }: Props) {
         siteMetadata {
           title
           description
-          language
+          languageCode
+          countryCode
         }
       }
     }
@@ -29,10 +30,17 @@ export default function Layout({ children }: Props) {
             titleTemplate={`%s | ${data.site.siteMetadata.title}`}
             defaultTitle={data.site.siteMetadata.title}
           >
-            <html lang={data.site.siteMetadata.language} />
+            <html lang={data.site.siteMetadata.languageCode} />
             <meta
               name="description"
               content={data.site.siteMetadata.description}
+            />
+
+            <meta
+              property="og:locale"
+              content={`${data.site.siteMetadata.languageCode}_${
+                data.site.siteMetadata.countryCode
+              }`}
             />
           </Helmet>
 

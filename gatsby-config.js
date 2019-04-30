@@ -3,7 +3,8 @@ module.exports = {
     title: 'Gatsby Strict Starter',
     description:
       'Demo for a Gatsby starter with strict linting and auto-formatting rules.',
-    language: 'en',
+    languageCode: 'en',
+    countryCode: 'US',
   },
   plugins: [
     {
