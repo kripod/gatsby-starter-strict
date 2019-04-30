@@ -20,7 +20,7 @@ module.exports = {
         /* eslint-enable */
       },
     },
-    'gatsby-plugin-react-helmet',
+    '@rhysforyou/gatsby-plugin-react-helmet-async',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-typescript',
   ],

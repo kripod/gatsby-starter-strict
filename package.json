@@ -10,20 +10,20 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@rhysforyou/gatsby-plugin-react-helmet-async": "^0.1.1",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.3.34",
     "gatsby-plugin-manifest": "^2.0.29",
-    "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-plugin-typescript": "^2.0.13",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.0",
+    "react-helmet-async": "^1.0.2",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {
     "@types/react": "^16.8.15",
-    "@types/react-helmet": "^5.0.8",
+    "@types/react-helmet-async": "^1.0.0",
     "@types/styled-components": "^4.1.14",
     "@typescript-eslint/eslint-plugin": "^1.7.0",
     "eslint": "^5.16.0",
