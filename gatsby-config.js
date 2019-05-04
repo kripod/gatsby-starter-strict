@@ -3,7 +3,8 @@ module.exports = {
     title: 'Gatsby Strict Starter',
     description:
       'Demo for a Gatsby starter with strict linting and auto-formatting rules.',
-    language: 'en',
+    languageCode: 'en',
+    countryCode: 'US',
   },
   plugins: [
     {
@@ -20,7 +21,7 @@ module.exports = {
         /* eslint-enable */
       },
     },
-    'gatsby-plugin-react-helmet',
+    '@rhysforyou/gatsby-plugin-react-helmet-async',
     'gatsby-plugin-styled-components',
     'gatsby-plugin-typescript',
   ],

@@ -1,8 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import { ThemeProvider } from 'styled-components';
-import { Query } from '../generated/graphql';
 import theme from '../utils/theme';
 
 interface Props {
@@ -10,38 +9,48 @@ interface Props {
 }
 
 export default function Layout({ children }: Props) {
-  const data = useStaticQuery<Query>(graphql`
+  const data = useStaticQuery(graphql`
     {
       site {
         siteMetadata {
           title
           description
-          language
+          languageCode
+          countryCode
         }
       }
     }
   `);
 
   return (
-    <ThemeProvider theme={theme}>
-      <div>
-        <Helmet
-          titleTemplate={`%s | ${data.site!.siteMetadata!.title!}`}
-          defaultTitle={data.site!.siteMetadata!.title!}
-        >
-          <html lang={data.site!.siteMetadata!.language} />
-          <meta
-            name="description"
-            content={data.site!.siteMetadata!.description!}
-          />
-        </Helmet>
+    <React.StrictMode>
+      <ThemeProvider theme={theme}>
+        <div>
+          <Helmet
+            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+            defaultTitle={data.site.siteMetadata.title}
+          >
+            <html lang={data.site.siteMetadata.languageCode} />
+            <meta
+              name="description"
+              content={data.site.siteMetadata.description}
+            />
 
-        <header>{/* TODO */}</header>
+            <meta
+              property="og:locale"
+              content={`${data.site.siteMetadata.languageCode}_${
+                data.site.siteMetadata.countryCode
+              }`}
+            />
+          </Helmet>
 
-        <main>{children}</main>
+          <header>{/* TODO */}</header>
 
-        <footer>{/* TODO */}</footer>
-      </div>
-    </ThemeProvider>
+          <main>{children}</main>
+
+          <footer>{/* TODO */}</footer>
+        </div>
+      </ThemeProvider>
+    </React.StrictMode>
   );
 }
