@@ -23,7 +23,7 @@ A Gatsby starter with strict linting and auto-formatting rules.
 
 ### Static type checking
 
-[TypeScript][] adds optional types to JavaScript, preventing several programming mistakes. For a quick guide about using React with it, please refer to the [React TypeScript Cheatsheet].
+[TypeScript][] adds optional types to JavaScript, preventing several programming mistakes. For a quick guide about using React with it, please refer to the [React TypeScript Cheatsheet][].
 
 [typescript]: https://www.typescriptlang.org/
 [react typescript cheatsheet]: https://github.com/sw-yx/react-typescript-cheatsheet
