@@ -16,7 +16,7 @@ A Gatsby starter with strict linting and auto-formatting rules.
 
 ### Automatic code formatting
 
-[Prettier][] is an opinionated code formatter aiming to provide codebase consistency when multiple developers work on the same project. The main reason behind adopting it is to [stop all the on-going debates over coding styles][].
+[Prettier][] aims to provide codebase consistency when multiple developers work on the same project. The main reason behind adopting it is to [stop all the on-going debates over coding styles][].
 
 [prettier]: https://prettier.io/
 [stop all the on-going debates over coding styles]: https://prettier.io/docs/en/why-prettier.html
@@ -30,7 +30,7 @@ A Gatsby starter with strict linting and auto-formatting rules.
 
 ### Linting
 
-Linters are tools that analyze source code to flag programming errors, bugs, stylistic errors, and suspicious constructs. Source code is linted by [ESLint][], enforcing the [Airbnb JavaScript Style Guide][] through an overridable set of rules provided by [eslint-config-airbnb][].
+Source code is linted by [ESLint][], enforcing the [Airbnb JavaScript Style Guide][] through an overridable set of rules provided by [eslint-config-airbnb][].
 
 [eslint]: https://eslint.org/
 [airbnb javascript style guide]: https://github.com/airbnb/javascript
