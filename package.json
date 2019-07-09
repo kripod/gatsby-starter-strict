@@ -42,6 +42,6 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^3.0.0",
     "stylelint-processor-styled-components": "^1.8.0",
-    "typescript": "^3.5.2"
+    "typescript": "^3.5.3"
   }
 }
