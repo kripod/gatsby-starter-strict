@@ -38,9 +38,7 @@ export default function Layout({ children }: Props) {
 
             <meta
               property="og:locale"
-              content={`${data.site.siteMetadata.languageCode}_${
-                data.site.siteMetadata.countryCode
-              }`}
+              content={`${data.site.siteMetadata.languageCode}_${data.site.siteMetadata.countryCode}`}
             />
           </Helmet>
 
