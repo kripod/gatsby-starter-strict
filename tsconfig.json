@@ -8,6 +8,5 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true
-  },
-  "include": ["src/**/*"]
+  }
 }
