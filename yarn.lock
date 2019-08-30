@@ -4732,10 +4732,10 @@ gatsby-page-utils@^0.0.14:
     micromatch "^3.1.10"
     slash "^3.0.0"
 
-gatsby-plugin-manifest@^2.2.11:
-  version "2.2.11"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.11.tgz#4ed905dc24cabd8f23d3bfae3c9259ad81852222"
-  integrity sha512-7+ncSNNRLgSgM7KP43BcIOO4LlRXiN/6o9R8lR/2bWaExOuUafuOjjBNPpTz8cgU2T11MEaahq0Oqec/2yFO9A==
+gatsby-plugin-manifest@^2.2.12:
+  version "2.2.12"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.2.12.tgz#8e02a3074c139d64f5cbd168d52784593aa04563"
+  integrity sha512-Xk1lTRaNKldVAxe+awzB/sM5b1NmRTQKZXdlEVO8hCqrmCuUs9rYLuHezHwSKPC6yrvssOFYs3wx7ZjO7H/vEA==
   dependencies:
     "@babel/runtime" "^7.5.5"
     gatsby-core-utils "^1.0.6"
