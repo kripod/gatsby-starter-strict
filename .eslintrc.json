@@ -4,7 +4,6 @@
     "airbnb",
     "airbnb/hooks",
     "plugin:@typescript-eslint/recommended",
-    "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:import/typescript",
     "plugin:jest/recommended",
     "plugin:prettier/recommended",
@@ -14,9 +13,6 @@
   "plugins": ["emotion"],
   "env": {
     "browser": true
-  },
-  "parserOptions": {
-    "project": "./tsconfig.json"
   },
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
