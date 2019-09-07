@@ -8,6 +8,7 @@
     "lint": "npm run lint:es && npm run lint:style",
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js}\"",
     "lint:style": "stylelint --ignore-path .gitignore \"src/**/*.{ts,tsx,js}\"",
+    "test": "jest",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
@@ -24,8 +25,10 @@
     "react-helmet-async": "^1.0.2"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.18",
     "@types/react": "^16.9.2",
     "@types/react-helmet-async": "^1.0.0",
+    "@types/react-test-renderer": "^16.9.0",
     "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.1.0",
     "eslint": "^6.3.0",
@@ -33,11 +36,15 @@
     "eslint-config-prettier": "^6.2.0",
     "eslint-plugin-emotion": "^10.0.14",
     "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-react-hooks": "^2.0.1",
+    "jest": "^24.9.0",
+    "jest-emotion": "^10.0.17",
     "prettier": "^1.18.2",
+    "react-test-renderer": "^16.9.0",
     "stylelint": "^10.1.0",
     "stylelint-config-prettier": "^5.2.0",
     "stylelint-config-rational-order": "^0.1.2",
@@ -45,6 +52,7 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^3.1.0",
     "stylelint-processor-styled-components": "^1.8.0",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.6.2"
   }
 }

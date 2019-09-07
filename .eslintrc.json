@@ -6,6 +6,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
     "plugin:import/typescript",
+    "plugin:jest/recommended",
     "plugin:prettier/recommended",
     "prettier/@typescript-eslint",
     "prettier/react"
@@ -21,5 +22,16 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "emotion/syntax-preference": ["error", "string"],
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
-  }
+  },
+  "overrides": [
+    {
+      "files": ["**/*.test.{ts,tsx}"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          { "optionalDependencies": false }
+        ]
+      }
+    }
+  ]
 }
