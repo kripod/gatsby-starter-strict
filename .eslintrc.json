@@ -10,6 +10,7 @@
     "prettier/@typescript-eslint",
     "prettier/react"
   ],
+  "plugins": ["emotion"],
   "env": {
     "browser": true
   },
@@ -18,6 +19,7 @@
   },
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
+    "emotion/syntax-preference": ["error", "string"],
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
   }
 }
