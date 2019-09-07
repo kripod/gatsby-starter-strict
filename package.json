@@ -11,21 +11,21 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
     "@rhysforyou/gatsby-plugin-react-helmet-async": "^0.1.1",
-    "babel-plugin-styled-components": "^1.10.6",
+    "emotion-theming": "^10.0.17",
     "gatsby": "^2.15.9",
+    "gatsby-plugin-emotion": "^4.1.5",
     "gatsby-plugin-manifest": "^2.2.14",
-    "gatsby-plugin-styled-components": "^3.1.4",
     "gatsby-plugin-typescript": "^2.1.6",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-helmet-async": "^1.0.2",
-    "styled-components": "^4.3.2"
+    "react-helmet-async": "^1.0.2"
   },
   "devDependencies": {
     "@types/react": "^16.9.2",
     "@types/react-helmet-async": "^1.0.0",
-    "@types/styled-components": "^4.1.18",
     "@typescript-eslint/eslint-plugin": "^2.1.0",
     "@typescript-eslint/parser": "^2.1.0",
     "eslint": "^6.3.0",

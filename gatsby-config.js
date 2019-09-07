@@ -22,7 +22,7 @@ module.exports = {
       },
     },
     '@rhysforyou/gatsby-plugin-react-helmet-async',
-    'gatsby-plugin-styled-components',
+    'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
   ],
 };
