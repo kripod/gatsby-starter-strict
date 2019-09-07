@@ -4,11 +4,11 @@ import { Helmet } from 'react-helmet-async';
 import { ThemeProvider } from 'emotion-theming';
 import { theme } from '../utils/theme';
 
-interface Props {
+interface LayoutProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ children }: Props) {
+export default function Layout({ children }: LayoutProps) {
   const data = useStaticQuery(graphql`
     {
       site {
