@@ -17,7 +17,8 @@
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "emotion/syntax-preference": ["error", "string"],
-    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }]
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "react/jsx-props-no-spreading": "off"
   },
   "overrides": [
     {
