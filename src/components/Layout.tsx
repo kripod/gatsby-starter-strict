@@ -1,7 +1,7 @@
+import { ThemeProvider } from 'emotion-theming';
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { ThemeProvider } from 'emotion-theming';
 import { theme } from '../utils/theme';
 
 interface LayoutProps {
