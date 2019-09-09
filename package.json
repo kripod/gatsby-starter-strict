@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "gatsby-starter-strict",
   "scripts": {
     "build": "gatsby build",
     "clean": "git clean --force -dX",
