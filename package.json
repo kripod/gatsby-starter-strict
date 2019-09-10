@@ -54,6 +54,6 @@
     "stylelint-order": "^3.1.0",
     "stylelint-processor-styled-components": "^1.8.0",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.3"
   }
 }
