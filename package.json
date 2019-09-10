@@ -34,7 +34,7 @@
     "@typescript-eslint/parser": "^2.2.0",
     "eslint": "^6.3.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^6.2.0",
+    "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-emotion": "^10.0.14",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
