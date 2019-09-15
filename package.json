@@ -3,7 +3,7 @@
   "name": "gatsby-starter-strict",
   "scripts": {
     "build": "gatsby build",
-    "clean": "git clean --force -dX",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --ignore-path .gitignore --write \"**/*.{ts,tsx,js,json,yml,md}\"",
     "lint": "npm run lint:es && npm run lint:style",
