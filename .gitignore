@@ -1,6 +1,7 @@
 *.log*
 .cache/
 .eslintcache
+.stylelintcache
 coverage/
 node_modules/
 public/
