@@ -25,29 +25,27 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <React.StrictMode>
       <ThemeProvider theme={theme}>
-        <div>
-          <Helmet
-            titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-            defaultTitle={data.site.siteMetadata.title}
-          >
-            <html lang={data.site.siteMetadata.languageCode} />
-            <meta
-              name="description"
-              content={data.site.siteMetadata.description}
-            />
+        <Helmet
+          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
+          defaultTitle={data.site.siteMetadata.title}
+        >
+          <html lang={data.site.siteMetadata.languageCode} />
+          <meta
+            name="description"
+            content={data.site.siteMetadata.description}
+          />
 
-            <meta
-              property="og:locale"
-              content={`${data.site.siteMetadata.languageCode}_${data.site.siteMetadata.countryCode}`}
-            />
-          </Helmet>
+          <meta
+            property="og:locale"
+            content={`${data.site.siteMetadata.languageCode}_${data.site.siteMetadata.countryCode}`}
+          />
+        </Helmet>
 
-          <header>{/* TODO */}</header>
+        <header>{/* TODO */}</header>
 
-          <main>{children}</main>
+        <main>{children}</main>
 
-          <footer>{/* TODO */}</footer>
-        </div>
+        <footer>{/* TODO */}</footer>
       </ThemeProvider>
     </React.StrictMode>
   );
