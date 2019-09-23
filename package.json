@@ -35,7 +35,7 @@
     "@emotion/styled": "^10.0.17",
     "@rhysforyou/gatsby-plugin-react-helmet-async": "^0.1.1",
     "emotion-theming": "^10.0.19",
-    "gatsby": "^2.15.20",
+    "gatsby": "^2.15.21",
     "gatsby-plugin-emotion": "^4.1.7",
     "gatsby-plugin-manifest": "^2.2.18",
     "gatsby-plugin-typescript": "^2.1.9",
