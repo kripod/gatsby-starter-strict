@@ -67,7 +67,7 @@
     "prettier": "^1.18.2",
     "react-test-renderer": "^16.9.0",
     "stylelint": "^10.1.0",
-    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-prettier": "^6.0.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-styled-components": "^0.1.1",
