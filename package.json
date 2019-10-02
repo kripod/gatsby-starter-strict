@@ -31,7 +31,7 @@
     }
   },
   "dependencies": {
-    "@emotion/core": "^10.0.17",
+    "@emotion/core": "^10.0.20",
     "@emotion/styled": "^10.0.17",
     "@rhysforyou/gatsby-plugin-react-helmet-async": "^0.1.1",
     "emotion-theming": "^10.0.19",
