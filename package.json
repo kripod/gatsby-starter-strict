@@ -14,22 +14,6 @@
     "test": "jest",
     "type-check": "tsc --noEmit"
   },
-  "lint-staged": {
-    "*.{json,yml,md}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.{ts,tsx,js}": [
-      "eslint --fix",
-      "stylelint --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@emotion/core": "^10.0.20",
     "@emotion/styled": "^10.0.17",
