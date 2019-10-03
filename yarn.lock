@@ -4568,6 +4568,11 @@ eslint-plugin-react@^7.14.3, eslint-plugin-react@^7.15.1:
     prop-types "^15.7.2"
     resolve "^1.12.0"
 
+eslint-plugin-testing-library@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-1.0.0.tgz#79fb034113d3095e30e3c5b4da9235baa8d53a70"
+  integrity sha512-g56Ft6lRMjZfexB8odV/nhp69KvxxN/2/BJtUe7cTqIlU0WHtMmiF76O2jzbUnZZ1d80uDWqdFbRdrl0ib822A==
+
 eslint-scope@^4.0.0, eslint-scope@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/eslint-scope/-/eslint-scope-4.0.3.tgz#ca03833310f6889a3264781aa82e63eb9cfe7848"
