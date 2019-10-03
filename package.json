@@ -20,8 +20,8 @@
       "git add"
     ],
     "*.{ts,tsx,js}": [
-      "eslint",
-      "stylelint",
+      "eslint --fix",
+      "stylelint --fix",
       "git add"
     ]
   },
