@@ -10,7 +10,6 @@
     "lint:es": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js}\"",
     "lint:style": "stylelint --ignore-path .gitignore \"src/**/*.{ts,tsx,js}\"",
     "serve": "gatsby serve",
-    "start": "npm run develop",
     "test": "jest",
     "type-check": "tsc --noEmit"
   },
