@@ -1,15 +1,26 @@
 {
   "root": true,
   "extends": [
-    "@kripod/eslint-config-react",
-    "@kripod/eslint-config-typescript",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript",
     "plugin:jest/recommended",
     "plugin:testing-library/recommended",
-    "plugin:testing-library/react"
+    "plugin:testing-library/react",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint",
+    "prettier/react"
   ],
   "plugins": ["emotion"],
+  "env": {
+    "browser": true
+  },
   "rules": {
-    "emotion/syntax-preference": ["error", "string"]
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "emotion/syntax-preference": ["error", "string"],
+    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    "react/jsx-props-no-spreading": "off"
   },
   "overrides": [
     {

@@ -2,14 +2,13 @@ import { ThemeProvider } from 'emotion-theming';
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-
 import { theme } from '../utils/theme';
 
 interface LayoutProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps): JSX.Element {
+export default function Layout({ children }: LayoutProps) {
   const data = useStaticQuery(graphql`
     {
       site {
