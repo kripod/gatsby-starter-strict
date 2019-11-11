@@ -23,7 +23,7 @@
     "gatsby-plugin-manifest": "^2.2.23",
     "gatsby-plugin-typescript": "^2.1.16",
     "react": "^16.11.0",
-    "react-dom": "^16.10.2",
+    "react-dom": "^16.11.0",
     "react-helmet-async": "^1.0.4"
   },
   "devDependencies": {
