@@ -1,7 +1,3 @@
-import styled, { CreateStyled } from '../../node_modules/@emotion/styled';
+import { theme } from '@chakra-ui/core';
 
-export const theme = {
-  /* TODO */
-};
-
-export default styled as CreateStyled<typeof theme>;
+export default theme;
