@@ -1,19 +1,9 @@
 {
-  "include": ["src"],
-
-  // Reference: https://blogs.msdn.microsoft.com/typescript/2018/08/27/typescript-and-babel-7/
+  "include": ["src/"],
   "compilerOptions": {
     "strict": true,
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
     "esModuleInterop": true,
     "isolatedModules": true,
-    "resolveJsonModule": true,
-    "allowJs": true,
-    "jsx": "react",
-
-    // Define Emotion `css` prop
-    "types": ["@emotion/core"]
+    "jsx": "react"
   }
 }

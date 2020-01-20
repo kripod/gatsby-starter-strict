@@ -9,8 +9,5 @@
   // Avoid formatting script files with both ESLint and Prettier
   "[javascript]": { "editor.formatOnSave": false },
   "[typescript]": { "editor.formatOnSave": false },
-  "[typescriptreact]": { "editor.formatOnSave": false },
-
-  // Use workspace version of TypeScript instead of the one built-in
-  "typescript.tsdk": "node_modules/typescript/lib"
+  "[typescriptreact]": { "editor.formatOnSave": false }
 }
