@@ -1,10 +1,11 @@
 {
   "root": true,
+  "env": { "browser": true },
   "extends": [
-    "airbnb",
+    "airbnb-typescript",
     "airbnb/hooks",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript",
     "plugin:jest/recommended",
     "plugin:testing-library/recommended",
     "plugin:testing-library/react",
@@ -12,25 +13,15 @@
     "prettier/@typescript-eslint",
     "prettier/react"
   ],
-  "plugins": ["emotion"],
-  "env": {
-    "browser": true
-  },
+  "plugins": ["simple-import-sort"],
+
   "rules": {
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "emotion/syntax-preference": ["error", "string"],
-    "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
+    // Auto-sort imports
+    "sort-imports": "off",
+    "import/order": "off",
+    "simple-import-sort/sort": "error",
+
+    // Using a type system makes it safe enough to spread props
     "react/jsx-props-no-spreading": "off"
-  },
-  "overrides": [
-    {
-      "files": ["**/*.test.{ts,tsx}"],
-      "rules": {
-        "import/no-extraneous-dependencies": [
-          "error",
-          { "optionalDependencies": false }
-        ]
-      }
-    }
-  ]
+  }
 }
