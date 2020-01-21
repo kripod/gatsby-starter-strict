@@ -1,9 +1,6 @@
-import { ThemeProvider } from 'emotion-theming';
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-
-import theme from '../utils/theme';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -25,29 +22,24 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
 
   return (
     <React.StrictMode>
-      <ThemeProvider theme={theme}>
-        <Helmet
-          titleTemplate={`%s | ${data.site.siteMetadata.title}`}
-          defaultTitle={data.site.siteMetadata.title}
-        >
-          <html lang={data.site.siteMetadata.languageCode} />
-          <meta
-            name="description"
-            content={data.site.siteMetadata.description}
-          />
+      <Helmet
+        titleTemplate={`%s - ${data.site.siteMetadata.title}`}
+        defaultTitle={data.site.siteMetadata.title}
+      >
+        <html lang={data.site.siteMetadata.languageCode} />
+        <meta name="description" content={data.site.siteMetadata.description} />
 
-          <meta
-            property="og:locale"
-            content={`${data.site.siteMetadata.languageCode}_${data.site.siteMetadata.countryCode}`}
-          />
-        </Helmet>
+        <meta
+          property="og:locale"
+          content={`${data.site.siteMetadata.languageCode}_${data.site.siteMetadata.countryCode}`}
+        />
+      </Helmet>
 
-        <header>{/* TODO */}</header>
+      <header>{/* TODO */}</header>
 
-        <main>{children}</main>
+      <main>{children}</main>
 
-        <footer>{/* TODO */}</footer>
-      </ThemeProvider>
+      <footer>{/* TODO */}</footer>
     </React.StrictMode>
   );
 }
