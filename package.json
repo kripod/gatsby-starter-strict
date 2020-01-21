@@ -1,6 +1,6 @@
 {
-  "private": true,
   "name": "gatsby-starter-strict",
+  "private": true,
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
