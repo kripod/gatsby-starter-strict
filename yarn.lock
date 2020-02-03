@@ -4811,10 +4811,10 @@ eslint-plugin-simple-import-sort@^5.0.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-5.0.1.tgz#fd47d3ed2af30db3dd2cadaed285ad510dde479b"
   integrity sha512-s6Hjp9rcIDYT1h7tuTulblbY7+XQNZK+014uUkNJSKRXEHZO2i7CTr16HOpfgD9HDnUOpl0fwphPsr0oxZqgGg==
 
-eslint-plugin-testing-library@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-1.5.0.tgz#c9e9c5fb8320abc78d45dea90ae45781e5c7a52e"
-  integrity sha512-wSfVeCNseDQE+JltDkMbTBhinWwyeDE6aSH27Kbm907RT0YM0YPXjRpXdhAjSsR5T7NEXJDhpUTQE8nD+z/9Iw==
+eslint-plugin-testing-library@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-testing-library/-/eslint-plugin-testing-library-2.2.0.tgz#68cd94aba67d17299d4d026f441e968b0ee9c63b"
+  integrity sha512-3edjjvs02O6veuh0JlOVrmnuER1YPO2lWlbSxLVGgoWp6pO3dI2gcVJKjAvYI3gpj927vlcgmmZQOU5NHCWEUg==
 
 eslint-scope@^4.0.3:
   version "4.0.3"
