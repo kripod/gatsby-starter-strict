@@ -11,10 +11,8 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
     {
       site {
         siteMetadata {
-          title
+          name
           description
-          languageCode
-          countryCode
         }
       }
     }
@@ -23,16 +21,10 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
   return (
     <React.StrictMode>
       <Helmet
-        titleTemplate={`%s - ${data.site.siteMetadata.title}`}
-        defaultTitle={data.site.siteMetadata.title}
+        titleTemplate={`%s - ${data.site.siteMetadata.name}`}
+        defaultTitle={data.site.siteMetadata.name}
       >
-        <html lang={data.site.siteMetadata.languageCode} />
         <meta name="description" content={data.site.siteMetadata.description} />
-
-        <meta
-          property="og:locale"
-          content={`${data.site.siteMetadata.languageCode}_${data.site.siteMetadata.countryCode}`}
-        />
       </Helmet>
 
       <header>{/* TODO */}</header>
