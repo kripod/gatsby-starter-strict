@@ -2,7 +2,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-interface LayoutProps {
+export interface LayoutProps {
   children: React.ReactNode;
 }
 
