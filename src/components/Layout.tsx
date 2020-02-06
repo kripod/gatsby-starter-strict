@@ -6,7 +6,7 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
-export default function Layout({ children }: LayoutProps): JSX.Element {
+export function Layout({ children }: LayoutProps): JSX.Element {
   const data = useStaticQuery(graphql`
     {
       site {

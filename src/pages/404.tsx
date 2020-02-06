@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-import Layout from '../components/Layout';
+import { Layout } from '../components/Layout';
 
 export default function NotFoundPage(): JSX.Element {
   return (
