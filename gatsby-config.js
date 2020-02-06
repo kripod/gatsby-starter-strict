@@ -21,7 +21,7 @@ module.exports = {
         start_url: '/',
       },
     },
-    'gatsby-plugin-react-helmet-async',
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-typescript',
   ],
 };
