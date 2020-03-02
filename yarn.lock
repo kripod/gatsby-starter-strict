@@ -862,10 +862,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@chakra-ui/core@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@chakra-ui/core/-/core-0.5.2.tgz#0aa9c059467e7e957098bc07561ed86d80025b0b"
-  integrity sha512-0JL7QDp/fr7xcR9vNS6L3N4MluajboLWdnBeN3xK1Cn2ysTBR++ihew4C6vUm8RTTltxmYLP9t6ccuHDxaOxcQ==
+"@chakra-ui/core@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/core/-/core-0.6.1.tgz#63478877cf25c9175b7809aa42edc6262d11a87c"
+  integrity sha512-hZ2wB3u5PS/93s05IJqx1tiyrKC6ARpVFoRnmSo+DP/aacrqQ8+FjW19ZTBpFDp1520g2W0Ow5b69zOIyO7pRg==
   dependencies:
     "@reach/auto-id" "0.2.0"
     "@styled-system/css" "5.0.13"
@@ -874,9 +874,9 @@
     aria-hidden "^1.1.1"
     body-scroll-lock "^2.6.4"
     color "3.1.2"
+    copy-to-clipboard "3.3.1"
     exenv "^1.2.2"
     popper.js "^1.15.0"
-    pretty-num "0.3.0"
     react-animate-height "2.0.9"
     react-focus-lock "^2.2.1"
     react-spring "^8.0.27"
@@ -3557,6 +3557,13 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
+copy-to-clipboard@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/copy-to-clipboard/-/copy-to-clipboard-3.3.1.tgz#115aa1a9998ffab6196f93076ad6da3b913662ae"
+  integrity sha512-i13qo6kIHTTpCm8/Wup+0b1mVWETvu2kIMzKoK8FpkLkFxlt0znUAHcMzox+T8sPlqtZXq3CulEjQHsYiGFJUw==
+  dependencies:
+    toggle-selection "^1.0.6"
+
 copyfiles@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/copyfiles/-/copyfiles-2.2.0.tgz#d9fc6c06f299337fb7eeb7ea5887e9d7188d9d47"
@@ -5398,11 +5405,6 @@ fresh@0.5.2:
   version "0.5.2"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.2.tgz#3d8cadd90d976569fa835ab1f8e4b23a105605a7"
   integrity sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
-
-from-exponential@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/from-exponential/-/from-exponential-1.0.0.tgz#feea3f96dc6861dca784599e391c24bdb48d28f2"
-  integrity sha512-lr7d141V95FOV+W9B2f4D5gNM2Tm6Qk5GOBGwr6ZukwhpWHldqJw30xI+UkVBYi1cQu3afLQQD9QEgxpehT9wg==
 
 from2@^2.1.0, from2@^2.1.1:
   version "2.3.0"
@@ -9850,14 +9852,6 @@ pretty-format@^25.1.0:
     ansi-styles "^4.0.0"
     react-is "^16.12.0"
 
-pretty-num@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/pretty-num/-/pretty-num-0.3.0.tgz#4b62b7315c8b0a14b5e93f7340983f02ec200c38"
-  integrity sha512-qELFXWLfKYZg3BSdPXG5XqsbjLojJcvssSTH70ITntXZUAiYYXqiFmZX3i1OGfltPmP3SmJAyXuxiZco7OOoyA==
-  dependencies:
-    from-exponential "^1.0.0"
-    thousands "^1.0.1"
-
 private@^0.1.6:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
@@ -11799,11 +11793,6 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-thousands@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/thousands/-/thousands-1.0.1.tgz#59eb5b6d179ab20a42d9d1bdd05c2ca07fbc2d94"
-  integrity sha1-WetbbReasgpC2dG90FwsoH+8LZQ=
-
 throat@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/throat/-/throat-5.0.0.tgz#c5199235803aad18754a667d659b5e72ce16764b"
@@ -11923,6 +11912,11 @@ toasted-notes@3.0.0:
     "@reach/alert" "^0.1.2"
     "@types/react" "^16.8.10"
     "@types/react-dom" "^16.8.3"
+
+toggle-selection@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/toggle-selection/-/toggle-selection-1.0.6.tgz#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
+  integrity sha1-bkWxJj8gF/oKzH2J14sVuL932jI=
 
 toidentifier@1.0.0:
   version "1.0.0"
