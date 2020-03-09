@@ -5564,10 +5564,10 @@ gatsby-page-utils@^0.0.39:
     lodash "^4.17.15"
     micromatch "^3.1.10"
 
-gatsby-plugin-chakra-ui@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-chakra-ui/-/gatsby-plugin-chakra-ui-0.1.2.tgz#2d5029c4ed478a372951aa2467c8beedec5a7369"
-  integrity sha512-FfEc1GXi2fncVTYpp9Y/3GUCe12q3pHJMpcWxYJt1D1rza3lLtnyhzm3mxW+X9Cu/3Rv17FnuSmquc4oK/K/5Q==
+gatsby-plugin-chakra-ui@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-chakra-ui/-/gatsby-plugin-chakra-ui-0.1.4.tgz#2e8fcb85fa75b5adc4265a937766b47a4717900d"
+  integrity sha512-RofWX5ytqB7UDGQfTflXmeHOgqLXvZj4TnDE8JZyHNWiYR0vJGxM/UXBdGzC/fBwcfZWG3FUUAONk0znlUY/OQ==
 
 gatsby-plugin-emotion@^4.1.22:
   version "4.1.22"
