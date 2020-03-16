@@ -48,7 +48,7 @@
     "eslint-plugin-testing-library": "^2.2.3",
     "husky": "^4.2.3",
     "jest": "^25.1.0",
-    "jest-emotion": "^10.0.27",
+    "jest-emotion": "^10.0.32",
     "lint-staged": "^10.0.8",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.12.0",
