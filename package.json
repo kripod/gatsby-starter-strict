@@ -15,7 +15,7 @@
     "@chakra-ui/core": "^0.7.0",
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
-    "@types/react": "^16.9.31",
+    "@types/react": "^16.9.34",
     "@types/react-helmet": "^5.0.15",
     "emotion-theming": "^10.0.27",
     "gatsby": "^2.20.9",
