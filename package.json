@@ -26,7 +26,7 @@
     "gatsby-plugin-typescript": "^2.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-helmet": "^6.0.0-beta.2",
+    "react-helmet": "^6.0.0",
     "typescript": "^3.8.3"
   },
   "devDependencies": {
