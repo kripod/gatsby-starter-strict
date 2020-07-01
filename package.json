@@ -27,7 +27,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.5"
   },
   "devDependencies": {
     "@testing-library/react": "^10.0.4",
