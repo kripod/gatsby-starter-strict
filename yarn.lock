@@ -7153,10 +7153,10 @@ gatsby-cli@^2.12.40:
     yargs "^15.3.1"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.3.3, gatsby-core-utils@^1.3.8:
-  version "1.3.8"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.8.tgz#e6d15d8cb24fa7e16a0af01a5e262ac9c4f31913"
-  integrity sha512-wVUqF8/DQMhiCyIKxVKjeDp4aN8x4/f+e/gS78sgaU0fleUpMMbQmeV+ASLh0Kk11yFs0fl4+EWWLFCHY2sWmg==
+gatsby-core-utils@^1.3.14, gatsby-core-utils@^1.3.3:
+  version "1.3.14"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.14.tgz#a830412a9edb87544bc0d1ad9c2556d33aa0d157"
+  integrity sha512-jfC+x5rrYUfl70MHRLsOtsXqdlqIbQGVDKXrvp6IPIUP8TKU6XIpYktF0Yd4ldJIWmGZTa062RWUOd2DFBHVSw==
   dependencies:
     ci-info "2.0.0"
     configstore "^5.0.1"
@@ -7235,13 +7235,13 @@ gatsby-plugin-emotion@^4.3.6:
     "@babel/runtime" "^7.10.3"
     "@emotion/babel-preset-css-prop" "^10.0.27"
 
-gatsby-plugin-manifest@^2.4.14:
-  version "2.4.14"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.14.tgz#9d82fbf81fc568860b1b3cc8cc0bf6cd8513b229"
-  integrity sha512-yWrAGS/LN9MEbtllG9ZsU4mIAQZJsfzdpq3YL3HO6LYJWGngD/JzkXUfOYhH5cT/WVgU5vMxkcyFrwj0J5xWNw==
+gatsby-plugin-manifest@^2.4.21:
+  version "2.4.21"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.21.tgz#5d0f0348c85ef45805fb1f796965bfa5d53ebc44"
+  integrity sha512-f+yx8Jnz9rPtzrPLmcesyCUUe91MhvPvlkRkZF3g4/DAQW9fbtUzutICNSlY+JjLzMkYF5x0NJFvX5sSkC9m3A==
   dependencies:
     "@babel/runtime" "^7.10.3"
-    gatsby-core-utils "^1.3.8"
+    gatsby-core-utils "^1.3.14"
     semver "^5.7.1"
     sharp "^0.25.1"
 
