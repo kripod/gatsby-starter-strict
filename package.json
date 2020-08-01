@@ -18,7 +18,7 @@
     "@types/react": "^16.9.44",
     "@types/react-helmet": "^5.0.15",
     "emotion-theming": "^10.0.27",
-    "gatsby": "^2.22.15",
+    "gatsby": "^2.24.23",
     "gatsby-plugin-chakra-ui": "^0.1.4",
     "gatsby-plugin-emotion": "^4.3.6",
     "gatsby-plugin-manifest": "^2.4.21",
